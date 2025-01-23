@@ -161,16 +161,16 @@ st.markdown("---")
 
 
 
-
+df_ans = pd.read_csv('m2022_ans.csv', header=0)
 
 df_results_ans = pd.DataFrame(
     {
         '類似度': sim,
-        'カテゴリ': df['Category'],
-        '年度': df['Year'].astype(str) + "年",
-        '番号': df['Subtitle'],
-        '問題文': df['Questions'],
-        #'Answer': df['Answer'], 
+        'カテゴリ': df_ans['Category'],
+        '年度': df_ans['Year'].astype(str) + "年",
+        '番号': df_ans['Subtitle'],
+        '問題文': df_ans['Questions'],
+        'Answer': df_ans['Answer'], 
     }
 )
 
