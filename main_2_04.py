@@ -53,10 +53,10 @@ model = SentenceBertJapanese(MODEL_NAME)
 
 ##ここまでモデル----------
 # df読み込み
-df = pd.read_csv('/Users/yt/Desktop/M_APP_STML/main/m2022.csv', header=0)
+df = pd.read_csv('m2022.csv', header=0)
 
 # vec読み込み
-with open('/Users/yt/Desktop/M_APP_STML/main/m2022.json', 'r') as f:
+with open('m2022.json', 'r') as f:
     loaded_vecs_json = json.load(f)
     loaded_vecs = np.array(loaded_vecs_json)  # NumPy配列に変換
 
