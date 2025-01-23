@@ -1,0 +1,10 @@
+streamlit
+pandas
+numpy
+torch
+mecab-python3
+transformers
+sentencepiece
+fugashi
+ipadic
+gensim
