@@ -1,10 +1,1 @@
-streamlit
-pandas
-numpy
-torch
-mecab-python3
-transformers
-sentencepiece
-fugashi
-ipadic
-gensim
+streamlit==1.41.1 pandas==2.2.3 numpy==1.26.4 torch==2.5.1 mecab-python3==1.0.10 transformers==4.48.1 sentencepiece==0.2.0 fugashi==1.4.0 ipadic==1.0.0 gensim==4.3.3 unidic-lite==1.0.8
