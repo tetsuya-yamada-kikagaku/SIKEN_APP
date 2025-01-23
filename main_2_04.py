@@ -170,7 +170,7 @@ df_results_ans = pd.DataFrame(
         '年度': df['Year'].astype(str) + "年",
         '番号': df['Subtitle'],
         '問題文': df['Questions'],
-        'Answer': df['Answer'], 
+        #'Answer': df['Answer'], 
     }
 )
 
